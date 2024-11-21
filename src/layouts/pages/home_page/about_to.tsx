@@ -1,8 +1,10 @@
 export function HomepageAboutTo() {
   return (
-    <section className="py-10 flex flex-col gap-4 w-[60%] max-lg:w-full">
-      <h2 className="text-2xl font-bold">O que são as Mitologias?</h2>
-      <p className="text-xs font-medium">
+    <section className="py-10 flex flex-col gap-4 w-full justify-center items-center text-center">
+      <h2 className="text-2xl font-bold max-w-[60%] max-lg:max-w-full">
+        O que são as Mitologias?
+      </h2>
+      <p className="text-xs font-medium max-w-[60%] max-lg:max-w-full">
         Mitologias são conjuntos de histórias e crenças que explicam a origem do
         mundo, fenômenos naturais e valores culturais por meio de narrativas
         simbólicas. Esses mitos, geralmente envolvendo deuses, heróis e forças
