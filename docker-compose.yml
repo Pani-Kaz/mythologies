@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  app:
+    image: nikolaik/python-nodejs
+    container_name: mythologies
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3220:3000"
+    command: >
+      bash -c "npm run start"
