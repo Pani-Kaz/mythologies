@@ -1,6 +1,6 @@
 export function HomepageAboutTo() {
   return (
-    <section className="py-10 flex flex-col gap-4 w-full justify-center items-center text-center">
+    <section className="py-10 flex flex-col gap-4 w-full justify-center items-center text-center max-lg:text-start max-lg:justify-start max-lg:items-start">
       <h2 className="text-2xl font-bold max-w-[60%] max-lg:max-w-full">
         O que são as Mitologias?
       </h2>

@@ -17,7 +17,7 @@ export default function DefaultLayout({
         {children}
       </main>
       <footer className="w-full flex items-center justify-center py-3">
-          <span className="text-default-600">Desenvolvido para trabalhoy</span>
+          <p className="text-xs">Desenvolvido para as eletivas</p>
       </footer>
     </div>
   );
