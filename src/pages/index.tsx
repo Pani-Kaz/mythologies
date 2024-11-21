@@ -1,9 +1,10 @@
 import DefaultLayout from "@/layouts/default";
+import { HomepageIntroduction } from "@/layouts/pages/home_page/Introduction";
 
 export default function IndexPage() {
   return (
     <DefaultLayout>
-      <h1>hello word!</h1>
+      <HomepageIntroduction />
     </DefaultLayout>
   );
 }
